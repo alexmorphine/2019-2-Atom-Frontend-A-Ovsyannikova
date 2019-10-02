@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/atom-project/static/css/main.b4eae362.chunk.css",
+    "main.js": "/atom-project/static/js/main.8309640b.chunk.js",
+    "main.js.map": "/atom-project/static/js/main.8309640b.chunk.js.map",
+    "runtime-main.js": "/atom-project/static/js/runtime-main.ba9a1f37.js",
+    "runtime-main.js.map": "/atom-project/static/js/runtime-main.ba9a1f37.js.map",
+    "static/js/2.8d7d6c42.chunk.js": "/atom-project/static/js/2.8d7d6c42.chunk.js",
+    "static/js/2.8d7d6c42.chunk.js.map": "/atom-project/static/js/2.8d7d6c42.chunk.js.map",
+    "index.html": "/atom-project/index.html",
+    "precache-manifest.85af3ab44582d0ecc21496ee1982835e.js": "/atom-project/precache-manifest.85af3ab44582d0ecc21496ee1982835e.js",
+    "service-worker.js": "/atom-project/service-worker.js",
+    "static/css/main.b4eae362.chunk.css.map": "/atom-project/static/css/main.b4eae362.chunk.css.map",
+    "static/media/logo.svg": "/atom-project/static/media/logo.a55f1c43.svg"
+  }
+}
