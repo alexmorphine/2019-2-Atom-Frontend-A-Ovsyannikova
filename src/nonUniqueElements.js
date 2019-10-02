@@ -24,7 +24,17 @@ nonUniqueElements([5, 5, 5, 5, 5]) == [5, 5, 5, 5, 5]
 nonUniqueElements([10, 9, 10, 10, 9, 8]) == [10, 9, 10, 10, 9]
  */
 
-function nonUniqueElements(data) {
-  // your solution goes here
-  return data
+export default function nonUniqueElements(data) {
+  let dict = {}
+  let result = []
+  let current
+  // eslint-disable-next-line guard-for-in
+  for (var key = 0; key < data.length; key++)  {
+    current = data[key]
+    // console.log(key, key + 1, current, data.slice(0, key).concat(data.slice(key + 1)), data.slice(0, key), data.slice(key + 1), data.slice(2))
+    if (data.slice(0, key).concat(data.slice(key + 1)).includes(current)) {
+      result.push(current)
+    }
+  }
+  return result
 }
